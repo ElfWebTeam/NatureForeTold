@@ -1,0 +1,13 @@
+[package]
+name = "EndangeredSpeciesNFT"
+version = "0.0.1"
+authors = ["Nature ForeTold <elfwebteam@gmail.com>"]
+license = "MIT"
+
+[addresses]
+Deployer = "0xa6356966eb0b3d7cc1ff15a9a5b11026c577ea896609befd6e939fa7c796d8cc"
+EndangeredSpeciesNFT = "0xa6356966eb0b3d7cc1ff15a9a5b11026c577ea896609befd6e939fa7c796d8cc"
+DonationAddress = "0x9e504cc3ab7cab4dd7686da7e98ecb32caa972b57d4252c60cbd355f5a4e4a67"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
